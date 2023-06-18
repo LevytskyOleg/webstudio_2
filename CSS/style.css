@@ -1,19 +1,80 @@
 .container {
-  width: 1200px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 215px;
   padding-right: 215px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .container-1 {
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
   justify-content: space-between;
   display: inline-flex;
   margin-left: 93px;
   margin-top: 32px;
   width: 281px;
   height: 16px;
+}
+.container-5 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 216px;
+  height: 50px;
+  margin-top: 30px;
+}
+.container-4 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 200px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-main {
+  width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-features {
+  width: 1170px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 215px;
+  padding-right: 215px;
+  outline: 1px solid red;
+}
+.container-services {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 215px;
+  padding-right: 215px;
+  outline: 1px solid red;
+}
+.container-team {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+  outline: 1px solid red;
+}
+.container-team-person {
+  outline: 1px solid blue;
+  width: 270px;
+  height: 368px;
+}
+.container-team-work {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 .logo {
   font-family: "Raleway";
@@ -51,9 +112,6 @@
 .container-3 {
   outline: 1px solid purple;
 }
-.container-4 {
-  outline: 1px solid blue;
-}
 .contackt-link-mail {
   font-family: "Roboto";
   width: 135px;
@@ -74,6 +132,8 @@
   color: #757575;
 }
 .hero-title {
+  width: 696px;
+  height: 120px;
   font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
@@ -85,6 +145,8 @@
   background-color: #2f303a;
 }
 .hero-button {
+  width: 216px;
+  height: 50px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -102,6 +164,9 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
+  width: 270px;
+  height: 16px;
 }
 .features-name-desc {
   font-family: "Roboto";
@@ -110,6 +175,16 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+  width: 270px;
+  height: 72px;
+}
+.container-services-title {
+  display: flex;
+  justify-content: space-around;
+}
+.servces-list {
+  width: 370px;
+  height: 294;
 }
 .servces-title {
   font-family: "Roboto";
@@ -118,6 +193,7 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 .team-title {
   font-family: "Roboto";
@@ -127,14 +203,14 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-name {
+/* .team-name {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: #212121;
-}
+} */
 .team-name-position {
   font-family: "Roboto";
   font-weight: 400;
@@ -142,6 +218,11 @@
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.container-footer {
+  width: 231px;
+  height: 81px;
+  margin-top: 20px;
 }
 .footer-logo-studio {
   color: #2196f3;
@@ -153,6 +234,7 @@
   background-color: #2f303a;
 }
 .address-name {
+  padding-bottom: 9px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
@@ -167,4 +249,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.container-mail {
+  padding-bottom: 9px;
 }
