@@ -1,4 +1,5 @@
 .container {
+  padding-bottom: 30px;
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
@@ -14,6 +15,13 @@
   margin-top: 32px;
   width: 281px;
   height: 16px;
+}
+.container-2 {
+  display: inline-flex;
+  padding-left: 300px;
+}
+.header-contackt-list {
+  display: flex;
 }
 .container-5 {
   margin-left: auto;
@@ -47,7 +55,7 @@
   margin-right: auto;
   padding-left: 215px;
   padding-right: 215px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .container-services {
   width: 1170px;
@@ -55,26 +63,31 @@
   margin-right: auto;
   padding-left: 215px;
   padding-right: 215px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .container-team {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
+
   margin-bottom: 94px;
   padding-left: 215px;
   padding-right: 215px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .container-team-person {
   outline: 1px solid blue;
   width: 270px;
   height: 368px;
 }
-.container-team-work {
+.container-team-person-1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.container-team-work {
   margin-bottom: 50px;
+  text-align: center;
+  padding-top: 188px;
 }
 .logo {
   font-family: "Raleway";
@@ -113,6 +126,7 @@
   outline: 1px solid purple;
 }
 .contackt-link-mail {
+  padding-right: 50px;
   font-family: "Roboto";
   width: 135px;
   height: 16px;
@@ -124,7 +138,7 @@
 }
 .contackt-link-tel {
   font-family: "Roboto";
-  outline: 1px solid gold;
+  /* outline: 1px solid gold; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -186,8 +200,10 @@
   justify-content: space-around;
 }
 .servces-list {
-  width: 370px;
-  height: 294;
+  /* width: 370px;
+  height: 294; */
+  display: flex;
+  justify-content: space-between;
 }
 .servces-title {
   font-family: "Roboto";
@@ -198,6 +214,7 @@
   color: #212121;
   margin-bottom: 50px;
 }
+
 .team-title {
   font-family: "Roboto";
   font-weight: 700;
